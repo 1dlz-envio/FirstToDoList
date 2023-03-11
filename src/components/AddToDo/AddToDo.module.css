@@ -10,3 +10,12 @@
       margin-right: 10px;
       width: 100%;
 }
+
+.btn {
+      border-radius: 2px;
+      padding: 6px;
+      background: grey;
+      color: white;
+      font-size: 14px;
+      font-weight: 700;
+}

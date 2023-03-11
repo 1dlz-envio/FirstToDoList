@@ -23,7 +23,7 @@ const AddToDo = (props) => {
       return (
             <section className={classes.element}>
                   <input className={classes.input} placeholder="Enter text..." value={value} onChange={(e) => { setValue(e.target.value) }}></input>
-                  <button onClick={addToDo}>Add ToDo</button>
+                  <button className={classes.btn} onClick={addToDo}>Add ToDo</button>
             </section>
       )
 }
