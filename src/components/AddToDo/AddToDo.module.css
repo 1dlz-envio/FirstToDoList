@@ -1,0 +1,12 @@
+.element {
+      width: 80vw;
+      margin: 10px auto;
+      display: flex;
+      justify-content: center;
+}
+
+.input {
+      outline: 2px solid black;
+      margin-right: 10px;
+      width: 100%;
+}
